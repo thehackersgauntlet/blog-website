@@ -1,5 +1,7 @@
 function renderHomepage() {
     const postListContainer = document.getElementById('post-list-container');
+    if (!postListContainer) return;
+    
     postListContainer.innerHTML = '';
     
     allPosts.forEach(post => {
@@ -14,3 +16,5 @@ function renderHomepage() {
         postListContainer.innerHTML += postCard;
     });
 }
+
+renderHomepage();
