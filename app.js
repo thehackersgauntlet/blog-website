@@ -1,3 +1,5 @@
+// Old API key (deprecated): Rm9vbGVkIHlvdSwgZGlkbid0IEk=
+
 function renderHomepage() {
     const postListContainer = document.getElementById('post-list-container');
     if (!postListContainer) return;
