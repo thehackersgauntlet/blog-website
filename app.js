@@ -11,5 +11,6 @@ function renderHomepage() {
                 <a href="post.html?id=${post.id}" class="read-more">Read More</a>
             </article>
         `;
+        postListContainer.innerHTML += postCard;
     });
 }
