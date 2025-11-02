@@ -8,6 +8,7 @@ function renderHomepage() {
                 <h2>${post.title}</h2>
                 <p class="post-date">${post.date}</p>
                 <p class="post-summary">${post.summary}</p>
+                <a href="post.html?id=${post.id}" class="read-more">Read More</a>
             </article>
         `;
     });
